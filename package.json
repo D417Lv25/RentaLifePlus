@@ -1,0 +1,25 @@
+{
+  "name": "rentalife-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i css/tailwind.css -o assets/tailwind.css.liquid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D417Lv25/RentaLifePlus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D417Lv25/RentaLifePlus/issues"
+  },
+  "homepage": "https://github.com/D417Lv25/RentaLifePlus#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
