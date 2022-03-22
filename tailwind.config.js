@@ -2,6 +2,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  content: ["./**/*.liquid"],
+  content: ["./**/*.{liquid, json}"],
   plugins: [],
 }
