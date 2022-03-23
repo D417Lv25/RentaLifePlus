@@ -24,17 +24,28 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
+        "06fc155a-bf84-4512-a5b0-e0d91f4681fd": {
+          "type": "shopify:\/\/apps\/mikawaya-subscription\/blocks\/selling-plans-block\/04a0ae95-7461-4a48-956f-6840757b6670",
+          "settings": {
+            "use_form_id": true,
+            "form_id": "",
+            "widget_version": "V2"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -90,14 +101,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "06fc155a-bf84-4512-a5b0-e0d91f4681fd": {
-          "type": "shopify:\/\/apps\/mikawaya-subscription\/blocks\/selling-plans-block\/04a0ae95-7461-4a48-956f-6840757b6670",
-          "settings": {
-            "use_form_id": true,
-            "form_id": "",
-            "widget_version": "V2"
-          }
         }
       },
       "block_order": [
@@ -106,6 +109,7 @@
         "caption",
         "price",
         "variant_picker",
+        "06fc155a-bf84-4512-a5b0-e0d91f4681fd",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -113,8 +117,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "06fc155a-bf84-4512-a5b0-e0d91f4681fd"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
